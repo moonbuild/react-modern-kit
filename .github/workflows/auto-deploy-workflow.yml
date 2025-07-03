@@ -8,9 +8,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    
     environment:
-      name: 'github-pages'
-      url: ${{steps.deploy.outputs.page_url}}
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
 
     permissions:
       contents: read
@@ -37,7 +38,7 @@ jobs:
         uses: actions/configure-pages@v5
       
       - name: Upload artifact
-        uses: actions/upload-pages.artifact@v3
+        uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
       
