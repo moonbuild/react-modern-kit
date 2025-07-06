@@ -1,0 +1,24 @@
+:root {
+  --base-primary: 237, 242, 244;
+  --primary: rgba(var(--base-primary), 1);
+  --neutral-1: #191919;
+
+  --contrast: #b47aea;
+
+  --base-surface: 224, 224, 224;
+  --surface: rgba(var(--base-surface), 1);
+
+  --font-special: 'Poppins', sans-serif;
+  --font-base: 'Ubuntu', serif;
+}
+
+[data-theme='dark'] {
+  --base-primary: 1, 11, 20;
+  --primary: rgba(var(--base-primary), 1);
+  --neutral-1: #e4d9ff;
+
+  --contrast: #2680a6;
+
+  --base-surface: 2, 22, 52;
+  --surface: rgba(var(--base-surface), 1);
+}
