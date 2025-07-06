@@ -25,6 +25,9 @@
 .nav-title {
   padding: 0px 10px;
   cursor: pointer;
+  color: var(--contrast);
+  font-family: var(--font-special);
+  font-weight: 700;
 }
 
 .nav-title:hover {
@@ -43,14 +46,43 @@
   font-family: var(--font-special);
   font-weight: 400;
 }
+.nav-item-active {
+  background-color: var(--contrast);
+  border-radius: 20px;
+  color: var(--surface);
+}
 .nav-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   padding: 8px 10px;
   cursor: pointer;
   border-radius: 50%;
 }
-
-.nav-item-active {
-  background-color: var(--surface);
-  border-radius: 20px;
+.lang-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lang-left {
   color: var(--contrast);
+  padding: 4px 8px;
+  border-radius: 8px 0 0 8px;
+}
+.lang-middle {
+  color: var(--contrast);
+  padding: 4px 8px;
+  border-left: 1px solid var(--neutral-1);
+  border-right: 1px solid var(--neutral-1);
+}
+.lang-right {
+  color: var(--contrast);
+  padding: 4px 8px;
+  border-radius: 0 8px 8px 0;
+}
+.lang-active {
+  background: var(--contrast);
+  color: var(--neutral-1);
 }

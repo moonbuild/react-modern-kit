@@ -1,0 +1,26 @@
+{
+  "charts": {
+    "bloodGroupBar": {
+      "title": "Blood Group Frequency"
+    },
+    "rolePie": {
+      "pieChartTitle": "User Role Distribution",
+      "infoBox": {
+        "admin": "admin",
+        "moderator": "moderator",
+        "user": "user"
+      }
+    },
+    "ageLine": {
+      "title": "User Age Trend"
+    }
+  },
+  "table": { "title": "Infinite Scrolling Table" },
+  "navbar": {
+    "appName": "Modern Kit",
+    "pages": {
+      "home": "Home",
+      "table": "Table"
+    }
+  }
+}
