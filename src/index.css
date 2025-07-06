@@ -27,9 +27,12 @@ span {
 }
 
 table {
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 16px 8px;
   width: 100%;
+}
+thead {
+  background-color: var(--surface);
 }
 th,
 td {
@@ -38,6 +41,6 @@ td {
   text-align: left;
 }
 
-th {
-  background-color: var(--surface);
+td:hover {
+  background: rgba(var(--base-surface), 0.4);
 }

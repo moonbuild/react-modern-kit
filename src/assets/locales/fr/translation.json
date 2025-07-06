@@ -1,0 +1,26 @@
+{
+  "charts": {
+    "bloodGroupBar": {
+      "title": "Fréquence des groupes sanguins"
+    },
+    "rolePie": {
+      "pieChartTitle": "Répartition des rôles des utilisateurs",
+      "infoBox": {
+        "admin": "administrateur",
+        "moderator": "modérateur",
+        "user": "utilisateur"
+      }
+    },
+    "ageLine": {
+      "title": "Tendance d'âge des utilisateurs"
+    }
+  },
+  "table": { "title": "Tableau à défilement infini" },
+  "navbar": {
+    "appName": "Modern Kit",
+    "pages": {
+      "home": "Accueil",
+      "table": "Tableau"
+    }
+  }
+}
